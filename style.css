@@ -1,0 +1,45 @@
+
+svg {
+  font: 12px sans-serif;
+}
+.node {
+  fill: #ffffff;
+  stroke: #737272;
+}
+.node-active{
+  stroke: #b52107;
+}
+
+.node-inactive{
+  opacity: 0.2;
+}
+.link {
+  stroke: #555;
+  stroke-opacity: 0.8;
+}
+.link-active {
+  stroke: #b52107;
+  stroke-opacity: 1;
+}
+
+.link-inactive{
+  opacity: 0.2;
+}
+.label {
+  text-anchor: middle;
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+#btnSplit {
+  position: absolute;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #2f9627;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
